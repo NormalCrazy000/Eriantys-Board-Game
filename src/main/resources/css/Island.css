@@ -1,0 +1,8 @@
+.gridPaneIsland{
+    -fx-background-image: url("../Assets/island2nobg.png");
+    -fx-background-size: stretch;
+    -fx-pref-height: 150;
+    -fx-pref-width: 150;
+    -fx-padding: 25 25 25 25;
+    -fx-grid-lines-visible: true;
+}

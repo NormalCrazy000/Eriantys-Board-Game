@@ -1,0 +1,12 @@
+.anchorFather{
+    -fx-background-image: url("../Assets/bg.png");
+    -fx-background-size: stretch;
+}
+.anchorSchool{
+    -fx-background-image: url("../Assets/plancia/PlanciaDEF.png");
+    -fx-background-size: stretch;
+}
+.anchorCoinsPlayer{
+    -fx-background-image: url("../Assets/Monetabase.png");
+    -fx-background-size: stretch;
+}

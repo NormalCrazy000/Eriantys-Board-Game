@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+
+<deck>
+    <card>
+        <ID>1</ID>
+        <cost>1</cost>
+        <effect>OneStudentToAnIsland</effect>
+        <setup>In setup, draw 4 Students and place them on this card.</setup>
+        <effectDescription>Take 1 Student from this card and place it on an island of yor choice. Then, draw a new Student from the Bag and place it on his card.</effectDescription>
+    </card>
+
+    <card>
+        <ID>2</ID>
+        <cost>2</cost>
+        <effect>TakeControlOfProfessor</effect>
+        <setup> </setup>
+        <effectDescription>During this turn, you take control of any number of Professor even if you have the same number of Students as the player who currently controls them.</effectDescription>
+    </card>
+
+    <card>
+        <ID>3</ID>
+        <cost>3</cost>
+        <effect>ResolveIsland</effect>
+        <setup> </setup>
+        <effectDescription>Choose an Island and resolve the Island as if Mother Nature had ended her movement there. Mother Nature will still move and the Island where she ends her movement will also be resolved.</effectDescription>
+    </card>
+
+    <card>
+        <ID>4</ID>
+        <cost>1</cost>
+        <effect>Add2ToMotherNatureMovement</effect>
+        <setup> </setup>
+        <effectDescription>You may move Mother Nature up to 2 additional Island than is indicated by the Assistant card you've played.</effectDescription>
+    </card>
+
+    <card>
+        <ID>5</ID>
+        <cost>2</cost>
+        <effect>NoEntryCard</effect>
+        <setup>In setup, put the 4 No Entry Tiles on this card.</setup>
+        <effectDescription>Place a No Entry on an island of your choice. The first time Mother Nature ends her movement there, put the No Entry tile back onto this card DO NOT calculate influence on that Island, or place any Towers.</effectDescription>
+    </card>
+
+    <card>
+        <ID>6</ID>
+        <cost>3</cost>
+        <effect>NoTowerInInfluence</effect>
+        <setup> </setup>
+        <effectDescription>When Resolving a Conquering on an Island, Towers do not count towards influence.</effectDescription>
+    </card>
+
+    <card>
+        <ID>7</ID>
+        <cost>1</cost>
+        <effect>Replace3StudentsInEntrance</effect>
+        <setup>In setup, draw 6 Students and place them on this card.</setup>
+        <effectDescription>You may take up to 3 Students from this card and replace them with the same number of Students from your Entrance.</effectDescription>
+    </card>
+
+    <card>
+        <ID>8</ID>
+        <cost>2</cost>
+        <effect>TwoMoreInfluencePoint</effect>
+        <setup> </setup>
+        <effectDescription>During the influence calculation this turn, you count as having 2 more influence</effectDescription>
+    </card>
+
+    <card>
+        <ID>9</ID>
+        <cost>3</cost>
+        <effect>ColorNoInfluence</effect>
+        <setup> </setup>
+        <effectDescription>Choose a color of Student: during the influence calculation this turn, that color adds no influence.</effectDescription>
+    </card>
+
+    <card>
+        <ID>10</ID>
+        <cost>1</cost>
+        <effect>Exchange2Students</effect>
+        <setup> </setup>
+        <effectDescription>You may exchange up to 2 Students between your Entrance and your Dining Room.</effectDescription>
+    </card>
+
+    <card>
+        <ID>11</ID>
+        <cost>2</cost>
+        <effect>Take1StudentToDiningRoom</effect>
+        <setup>In setup, draw 4 Students and place them on this card.</setup>
+        <effectDescription>Take 1 Student from this card and place it in your Dining Room. Then, draw a new Student from the bag and place it on this card.</effectDescription>
+    </card>
+
+    <card>
+        <ID>12</ID>
+        <cost>3</cost>
+        <effect>Remove3StudentsFromDiningRoom</effect>
+        <setup> </setup>
+        <effectDescription>Choose a type of Student: every player (including yourself) must return 3 Students of that type from their Dining Room to the bag. If any player has fewer than 3 Students of that type, return as many Students as they have.</effectDescription>
+    </card>
+
+</deck>

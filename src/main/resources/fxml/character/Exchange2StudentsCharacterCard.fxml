@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="497.0" prefWidth="803.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.network.client.gui.controllerGUI.Character.Exchange2StudentsCharacterCardController">
+   <children>
+      <Text layoutX="164.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entrance" />
+      <Text layoutX="528.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dining room" />
+      <GridPane fx:id="gridPaneEntrance" layoutX="51.0" layoutY="109.0" prefHeight="339.0" prefWidth="269.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <GridPane prefHeight="24.0" prefWidth="260.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Blue" />
+                  <RadioButton mnemonicParsing="false" selected="true" text="0" GridPane.columnIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="blueEntrance" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton mnemonicParsing="false" text="1" toggleGroup="$blueEntrance" GridPane.columnIndex="2" />
+                  <RadioButton mnemonicParsing="false" text="2" toggleGroup="$blueEntrance" GridPane.columnIndex="3" />
+               </children>
+            </GridPane>
+            <GridPane prefHeight="24.0" prefWidth="260.0" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pink" />
+                  <RadioButton mnemonicParsing="false" selected="true" text="0" GridPane.columnIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="pinkEntrance" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton mnemonicParsing="false" text="1" toggleGroup="$pinkEntrance" GridPane.columnIndex="2" />
+                  <RadioButton mnemonicParsing="false" text="2" toggleGroup="$pinkEntrance" GridPane.columnIndex="3" />
+               </children>
+            </GridPane>
+            <GridPane prefHeight="24.0" prefWidth="260.0" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Yellow" />
+                  <RadioButton mnemonicParsing="false" selected="true" text="0" GridPane.columnIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="yellowEntrance" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton mnemonicParsing="false" text="1" toggleGroup="$yellowEntrance" GridPane.columnIndex="2" />
+                  <RadioButton mnemonicParsing="false" text="2" toggleGroup="$yellowEntrance" GridPane.columnIndex="3" />
+               </children>
+            </GridPane>
+            <GridPane prefHeight="24.0" prefWidth="260.0" GridPane.rowIndex="3">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Red" />
+                  <RadioButton mnemonicParsing="false" selected="true" text="0" GridPane.columnIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="redEntrance" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton mnemonicParsing="false" text="1" toggleGroup="$redEntrance" GridPane.columnIndex="2" />
+                  <RadioButton mnemonicParsing="false" text="2" toggleGroup="$redEntrance" GridPane.columnIndex="3" />
+               </children>
+            </GridPane>
+            <GridPane prefHeight="24.0" prefWidth="260.0" GridPane.rowIndex="4">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Green" />
+                  <RadioButton mnemonicParsing="false" selected="true" text="0" GridPane.columnIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="greenEntrance" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton mnemonicParsing="false" text="1" toggleGroup="$greenEntrance" GridPane.columnIndex="2" />
+                  <RadioButton mnemonicParsing="false" text="2" toggleGroup="$greenEntrance" GridPane.columnIndex="3" />
+               </children>
+            </GridPane>
+         </children>
+      </GridPane>
+      <GridPane fx:id="gridPaneDiningRoom" layoutX="442.0" layoutY="109.0" prefHeight="339.0" prefWidth="269.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <GridPane prefHeight="24.0" prefWidth="260.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Blue" />
+                  <RadioButton mnemonicParsing="false" selected="true" text="0" GridPane.columnIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="blueDining" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton mnemonicParsing="false" text="1" toggleGroup="$blueDining" GridPane.columnIndex="2" />
+                  <RadioButton mnemonicParsing="false" text="2" toggleGroup="$blueDining" GridPane.columnIndex="3" />
+               </children>
+            </GridPane>
+            <GridPane prefHeight="24.0" prefWidth="260.0" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pink" />
+                  <RadioButton mnemonicParsing="false" selected="true" text="0" GridPane.columnIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="pinkDining" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton mnemonicParsing="false" text="1" toggleGroup="$pinkDining" GridPane.columnIndex="2" />
+                  <RadioButton mnemonicParsing="false" text="2" toggleGroup="$pinkDining" GridPane.columnIndex="3" />
+               </children>
+            </GridPane>
+            <GridPane prefHeight="24.0" prefWidth="260.0" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Yellow" />
+                  <RadioButton mnemonicParsing="false" selected="true" text="0" GridPane.columnIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="yellowDining" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton mnemonicParsing="false" text="1" toggleGroup="$yellowDining" GridPane.columnIndex="2" />
+                  <RadioButton mnemonicParsing="false" text="2" toggleGroup="$yellowDining" GridPane.columnIndex="3" />
+               </children>
+            </GridPane>
+            <GridPane prefHeight="24.0" prefWidth="260.0" GridPane.rowIndex="3">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Red" />
+                  <RadioButton mnemonicParsing="false" selected="true" text="0" GridPane.columnIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="redDining" />
+                     </toggleGroup></RadioButton>
+                  <RadioButton mnemonicParsing="false" text="1" toggleGroup="$redDining" GridPane.columnIndex="2" />
+                  <RadioButton mnemonicParsing="false" text="2" toggleGroup="$redDining" GridPane.columnIndex="3" />
+               </children>
+            </GridPane>
+            <GridPane prefHeight="24.0" prefWidth="260.0" GridPane.rowIndex="4">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Green" />
+                  <RadioButton mnemonicParsing="false" selected="true" text="0" GridPane.columnIndex="1">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="greenDining" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton mnemonicParsing="false" text="1" toggleGroup="$greenDining" GridPane.columnIndex="2" />
+                  <RadioButton mnemonicParsing="false" text="2" toggleGroup="$greenDining" GridPane.columnIndex="3" />
+               </children>
+            </GridPane>
+         </children>
+      </GridPane>
+      <Button fx:id="buttonPlay" layoutX="340.0" layoutY="448.0" mnemonicParsing="false" onAction="#playCharacterCard" text="PlayCharacter" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/Connection.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.network.client.gui.controllerGUI.ConnectionController">
+   <children>
+      <TextField fx:id="textFieldIp" layoutX="189.0" layoutY="96.0" />
+      <TextField fx:id="textFieldPort" layoutX="189.0" layoutY="156.0" />
+      <Button layoutX="239.0" layoutY="206.0" mnemonicParsing="false" onAction="#connectToServer" text="Connect" />
+      <Text layoutX="260.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ip:" />
+      <Text layoutX="254.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Port:" />
+   </children>
+</AnchorPane>
