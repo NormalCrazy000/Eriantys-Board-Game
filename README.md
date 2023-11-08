@@ -9,7 +9,7 @@ Eriantys Board Game is the final test of **"Software Engineering"**, course of *
 **Final Score**: 30
 
 ## The Team
-* [Gabriele Giannotto](https://github.com/gabriele-giannotto)
+* [Gabriele Giannotto]([https://github.com/gabriele-giannotto](https://github.com/NormalCrazy000))
 * [Christian Lisi](https://github.com/Belfagor99)
 * [Maria Pia Marini](https://github.com/piamarini99)
 
